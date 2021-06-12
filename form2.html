@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #seker{
+            border: 2px solid
+            coral;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form action="result.html">
+        <div>
+            <label for="seker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı" id="seker" multiple size="6" required>
+                <option>--Bir tatlı seçiniz--</option>
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option value="Kadayıf">Kadayıf</option>
+                <option value="Baklava">Baklava/option>
+                <option value="Puding">Puding</option>
+                <option value="magnolia">Magolia</option>
+
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <label for="seker">Hangi tatlıyı seversiniz</label>
+            <br>
+            <select name="tatlı" id="seker" multiple size="6" required>
+                <optgroup label="Sütlü Tatlılar">
+                    <option value="Puding">Puding</option>
+                    <option value="Sütlaç">Sütlaç</option>
+                    <option value="Keşkül">Keşkül</option>
+                </optgroup>
+                <optgroup label="Şerbetli Tatlılar">
+                    <option value="Kadayıf">Kadayıf</option>
+                    <option value="Baklava">Baklava/option>
+                    <option value="magnolia">Magolia</option>
+                </optgroup>
+                
+
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <textarea name="yorum" id="ta1" cols="30" rows="10" style="width: 100%; height: 100px;" placeholder="Buraya yorumunuzu yazınız"></textarea>
+        </div>
+        <div>
+            <label for="iput-browser">Browsers:</label>
+            <input type="text" name="Kullanılan Browser" id="iput-browser" list="browsers">
+            <datalist id="browsers">
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Brave"></option>
+
+
+            </datalist>
+
+        </div>
+        <div>
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <label for="fname">isim:</label>
+                <br>
+                <input type="text" name="isim" id="fname" placeholder="adınızı girin">
+                <label for="lname">soyisim:</label>
+                <br>
+                <input type="text" name="soyisim" id="lname" placeholder="soyadınızı girin">
+                
+
+            </fieldset>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+<input type="submit" name="" id="">
+    </form>
+</body>
+</html>

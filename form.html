@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <form action="result.html" method="GET">
+<div>
+        
+        <label for="isim">ad:</label>
+        <input id="isim" type="text" name="isim">
+        <label for="soyisim">soyad:</label>
+        <input id="soyisim" type="text" name="isim">
+        
+
+</div>
+
+<div>
+    <label for="şifre">parola</label>
+    <input type="password" name="parola" id="şifre">
+</div>
+<div>
+    <label for="">Cinsiyet:</label>
+    <input id="gender1" type="radio" name="gender" value="Erkek">
+    <label for="gender1">Erkek</label>
+    <input id="gender2" type="radio" name="gender" value="Kadın">
+    <label for="gender2">Kadın</label>
+</div>
+<div>
+    <label>Favori Hayvan Belirtiniz</label><br>
+
+    <input id="panda" type="checkbox" name="animal_1" value="panda">
+    <label for="panda">Panda</label>
+    <input id="balık" type="checkbox" name="animal_2" value="balık">
+    <label for="balık">Balık</label>
+    <input id="at" type="checkbox" name="animal_3" value="unicorn" checked>
+    <label for="at">unicorn</label>
+</div>
+<div>
+    <label for="age">yaş:</label>
+    <input id="age" type="number" name="yaş" min="18" max="45">
+</div>
+<div>
+    <label for="search">ara:</label>
+    <input id="search" type="text" name="arandı" placeholder="ara">
+</div>
+<div>
+    <label for="renk">Renk Seç</label>
+    <input type="color" name="seçilen renk" id="renk">
+</div>
+<div>
+    <label for="tarih">Tarih</label>
+    <input type="date" name="Seçilen tarih" id="tarih" min="2020-05-20" max="2022-06-21">
+</div>
+<div>
+    <label for="">Mail:</label>
+    <input type="email" name="Kullanıcı emaili" id="mail">
+
+</div>
+<div>
+    <label for="dosya">Dosya Seç</label>
+    <input type="file" name="Kullanıcı dosyası" id="dosya">
+</div>
+<div>
+    <label for="telno">Telefon No:</label>
+    <input type="tel" name="Telefon no" id="telno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="telefon numaranızı giriniz">
+
+</div>
+
+
+
+
+<br><br><br><br>
+    <input type="reset" value="Reset">    
+    <input type="submit">
+
+
+
+
+    </form>
+    
+
+
+</body>
+</html>
