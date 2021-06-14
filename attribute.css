@@ -1,0 +1,44 @@
+h2[title="başlık1"] {
+    color: red;
+}
+p[title="paragraf1"] {
+    color: green;
+}
+
+a[target="_blank"] {
+    color: hotpink;
+}
+
+p::first-line{
+    font-size: 25px;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: royalblue;
+
+}
+
+ul li{
+    padding: 5px;
+    background-color: coral;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    list-style-type: "🐼";
+    text-align: center;
+    color: cornsilk;
+}
+
+ul li:first-child {
+    background-color: cyan;
+}
+
+ul li:last-child {
+    background-color: darkseagreen;
+}
+
+ul li::before{
+    content: "\2764";
+    color: red;
+}
