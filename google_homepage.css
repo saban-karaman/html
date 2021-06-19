@@ -1,0 +1,90 @@
+#ficon{
+    border-radius: 50%;
+}
+.navbar{
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    margin: none;
+}
+.navbar a{
+    padding: 5px;
+    text-decoration: none;
+    text-decoration-color: black;
+    display: block;
+
+}
+span.a{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+/* #gnine:hover{
+    opacity: 1;
+    display: inline-block;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;  */
+}
+.logo{
+    position: relative;
+    height: 100%;
+    align-items: center;
+    display: block;
+    
+}
+#photo{
+    float: none;
+    margin-left: 450px;
+
+}
+.formclas{
+    margin: 50px;
+    align-items: center;
+    display: flex;
+
+}
+form{
+    border: 3px solid whitesmoke;
+    margin-left: 240px;
+    width: 600px;
+    border-radius: 50px;
+    height: 50px;
+    padding-left: 250px;
+    box-sizing: border-box;
+
+
+}
+form input{
+    font-size: 16px;
+    border: white
+}
+.chance{
+    margin-left: 400px;
+}
+.chance a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    align-items: center;
+    
+
+    
+}
+
+
+
+

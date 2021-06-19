@@ -1,0 +1,23 @@
+#window{
+    border: 5px solid blue;
+    padding: 50px 20px;
+    margin: 100px 80px;
+
+}
+
+#f16{
+    float: left;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+}
+#title{
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    font-size: 25px;
+}
+
+#content{
+    text-indent: 10px;
+    text-align: justify;
+}
