@@ -1,90 +1,101 @@
-#ficon{
-    border-radius: 50%;
-}
-.navbar{
-    float: right;
-    display: flex;
-    align-items: center;
-    padding: 6px;
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
-    margin: none;
-}
-.navbar a{
-    padding: 5px;
-    text-decoration: none;
-    text-decoration-color: black;
-    display: block;
+/* CSS Dosyası */
 
+
+/* Boşlukları Sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
 }
-span.a{
-    display: inline;
-    width: 200px;
-    height: 100px;
-    padding: 5px;
-    background-color: blue;
-    color: white;
+
+#page{
+    width:max-content;
+    height: max-content;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin: auto;
 }
-/* #gnine:hover{
-    opacity: 1;
-    display: inline-block;
-    border-radius: 2px;
-    box-sizing: border-box;
-    height: 40px;
-    width: 40px;
-    color: #000;
-    cursor: pointer;
-    text-decoration: none;  */
-}
-.logo{
-    position: relative;
-    height: 100%;
-    align-items: center;
-    display: block;
+#menu{
+    width: max-content;
+    height: 30px;
+    border-color: white;
+    margin: auto;
     
 }
-#photo{
-    float: none;
-    margin-left: 450px;
+#menu ul{
+    list-style-type: none;
+    
+}
+
+#menu ul li{
+    width: 60px;
+    border-style: none;
+    background-color: white;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 390px;
+    top: 15px;
+
+    
+   
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
 
 }
-.formclas{
-    margin: 50px;
-    align-items: center;
-    display: flex;
+#menu ul li a img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 3px;
+    
 
 }
-form{
-    border: 3px solid whitesmoke;
-    margin-left: 240px;
-    width: 600px;
-    border-radius: 50px;
-    height: 50px;
-    padding-left: 250px;
-    box-sizing: border-box;
+#menu ul li a span{
+    display: inline;
+    border: 2px solid blue;
+    color: white;
+    background-color: blue;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#menu ul li a:visited{
+    color: black;
+}
+#menu ul li a img:hover{
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    
 
-
+    
+}
+#menu ul li a img title{
+    color: white;
+    background-color: black;
 }
 form input{
-    font-size: 16px;
-    border: white
-}
-.chance{
-    margin-left: 400px;
-}
-.chance a{
-    text-decoration: none;
-    font-family: arial,sans-serif;
-    padding: 15px;
-    border: 2px solid whitesmoke;
-    background-color: whitesmoke;
-    align-items: center;
-    
+    border: none;
 
-    
+} */
+form input:hover{
+    box-shadow: 2px 2px whitesmoke;
 }
 
+form div{
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+}
+form div img{
+    width: 30px;
+    background-color: white;
 
 
-
+}
