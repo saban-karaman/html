@@ -15,6 +15,8 @@
     border-width: 1px;
     margin: auto;
 }
+
+/* Nav Bar*/
 #menu{
     width: max-content;
     height: 30px;
@@ -77,25 +79,61 @@
 
     
 }
-#menu ul li a img title{
+/* #menu ul li a img[title]:hover{
     color: white;
     background-color: black;
-}
+} */
+
 form input{
+    position: relative;
+    left: 25px;
     border: none;
 
 } */
-form input:hover{
-    box-shadow: 2px 2px whitesmoke;
+article form:hover{
+    box-shadow: 4px 4px whitesmoke;
 }
 
 form div{
-    border: 1px solid whitesmoke;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgb(192, 190, 190);
     border-radius: 40px;
+    margin-bottom: 20px;
+    
 }
-form div img{
-    width: 30px;
+article img{
     background-color: white;
+    margin-top: 210px;
+    padding: 20px;
+    position: relative;
+    left: 120px;
+
+
+}
+
+article i{
+    color: rgb(228, 224, 224);
+    width: 10px;
+    height: 5px;
+    position: relative;
+    left: 15px;
+    align-items: center;
+
+
+
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 500px;
+    margin: 10px; 5px
 
 
 }

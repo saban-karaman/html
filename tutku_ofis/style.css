@@ -1,0 +1,44 @@
+@import url();
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+html {
+    font-size: 10px;
+}
+header {
+    width: 100%;
+    height: 3rem;
+    background-color: #fff0e6;
+}
+.language {
+    display: flex;
+    justify-content: flex-end;
+}
+.language a {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.katalog {
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+}
+.katalog:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.dil {
+    position: relative;
+}
