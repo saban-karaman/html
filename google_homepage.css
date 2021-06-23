@@ -36,7 +36,7 @@
     float: left;
     text-align: center;
     position: relative;
-    left: 390px;
+    left: 500px;
     top: 15px;
 
     
@@ -135,5 +135,96 @@ article i{
     width: 500px;
     margin: 10px; 5px
 
+}
 
+article ul{
+    list-style-type: none;
+}
+
+article ul li{
+    /* border: 2px solid whitesmoke; */
+    background-color: whitesmoke;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 125px;
+    margin-left: 10px;
+}
+article ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.63);
+}
+article ul li:hover{
+    border: 1px solid rgb(223, 220, 220);
+}
+
+article p {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.63);
+    position: relative;
+    left: 120px;
+    padding: 30px;
+}
+footer{
+    background-color: whitesmoke;
+    
+    
+}
+
+footer p{
+    margin-top: 280px;
+    padding: 10px;
+    position: relative;
+    right: 300px;
+    background-color: whitesmoke;
+}
+footer ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+}
+#footer1{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.63);
+    background-color: whitesmoke;
+}
+#footer1 li {
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    right: 300px;
+    background-color: whitesmoke;
+}
+#footer2{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.63);
+    background-color: whitesmoke;
+    float: right;
+}
+##footer2 li {
+    padding-right: 30px;
+    position: relative;
+    right: 100px;
+    background-color: whitesmoke;
+}
+footer button{
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.63);
+    background-color: whitesmoke;
 }
