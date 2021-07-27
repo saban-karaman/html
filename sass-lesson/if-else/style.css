@@ -1,0 +1,60 @@
+.kutu {
+  float: left;
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+}
+
+.b1 {
+  float: left;
+  width: 100px;
+}
+
+.b2 {
+  float: left;
+  width: 200px;
+}
+
+.b3 {
+  float: left;
+  width: 300px;
+}
+
+.b4 {
+  float: left;
+  width: 400px;
+}
+
+.b5 {
+  float: left;
+  width: 500px;
+}
+
+.ahmet1 {
+  float: left;
+  width: 100px;
+}
+
+.ahmet2 {
+  float: left;
+  width: 200px;
+}
+
+.ahmet3 {
+  float: left;
+  width: 300px;
+}
+
+.ahmet4 {
+  float: left;
+  width: 400px;
+}
+
+.ahmet5 {
+  float: left;
+  width: 500px;
+}
+
+@w;
+
+/*# sourceMappingURL=style.css.map */
