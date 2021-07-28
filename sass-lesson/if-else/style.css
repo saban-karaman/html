@@ -55,6 +55,28 @@
   width: 500px;
 }
 
-@w;
+.k-1 {
+  float: left;
+  width: 100px;
+}
 
+.k-2 {
+  float: left;
+  width: 200px;
+}
+
+.k-3 {
+  float: left;
+  width: 300px;
+}
+
+.k-4 {
+  float: left;
+  width: 400px;
+}
+
+.k-5 {
+  float: left;
+  width: 500px;
+}
 /*# sourceMappingURL=style.css.map */

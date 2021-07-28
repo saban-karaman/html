@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: orange;
+}
+
+.items{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+
+$color1:#0123;
+$color2:#456;
+$color3:#852;
+$color4:#741;
+$color5:#963;
+
+@for $i from 1 through 5{
+    .item-#{$i}{
+        width: 100px * $i;
+        height: 5px * $i;
+        background-color: blueviolet;
+        margin-bottom: 10px;
+    }
+}
